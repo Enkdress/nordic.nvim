@@ -31,10 +31,10 @@ return {
 
     ["@neorg.links.location.url"] = { fg = C.magenta.base },
 
-    ["@neorg.markup.italic.norg"] = { fg = C.white1, cterm = "italic" },
-    ["@neorg.markup.bold.norg"] = { fg = C.white1, cterm = "bold" },
+    ["@neorg.markup.italic.norg"] = { fg = C.white1, italic = true },
+    ["@neorg.markup.bold.norg"] = { fg = C.white1, bold = true },
 
-    ["@neorg.tags.ranged_verbatim.name.word.norg"] = { fg = C.gray1, cterm = "bold" },
+    ["@neorg.tags.ranged_verbatim.name.word.norg"] = { fg = C.gray1, bold = true },
     ["@neorg.definitions.title.norg"] = { fg = C.red.base },
     ["@neorg.definitions.content.norg"] = { fg = C.white1 },
     ["@neorg.lists.ordered.prefix.norg"] = { fg = C.gray1 },
