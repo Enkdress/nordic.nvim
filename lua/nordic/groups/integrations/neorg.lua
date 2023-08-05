@@ -43,6 +43,6 @@ return {
 
     ["@neorg.lists.ordered.prefix.norg"] = { fg = C.gray1 },
 
-    ["@neorg.footnotes.title.norg"] = { fg = C.cyan.bright, bold = true },
+    ["@neorg.footnotes.title.norg"] = { fg = C.cyan.bright },
     ["@neorg.footnotes.content.norg"] = { fg = C.white1 },
 }
