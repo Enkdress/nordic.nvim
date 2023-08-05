@@ -1,5 +1,4 @@
 local C = require 'nordic.colors'
-local O = require('nordic.config').options
 
 return {
     ["@neorg.headings.1.title"] = { fg = C.red.base },
@@ -33,9 +32,16 @@ return {
 
     ["@neorg.markup.italic.norg"] = { fg = C.white1, italic = true },
     ["@neorg.markup.bold.norg"] = { fg = C.white1, bold = true },
+    ["@neorg.markup.strikethrough.norg"] = { fg = C.white1, strikethrough = true },
 
-    ["@neorg.tags.ranged_verbatim.name.word.norg"] = { fg = C.gray1, bold = true },
+    ["@neorg.tags.ranged_verbatim.name.word.norg"] = { fg = C.gray2, bold = true },
+    ["@neorg.tags.ranged_verbatim.begin.norg"] = { fg = C.gray2, bold = true },
+
     ["@neorg.definitions.title.norg"] = { fg = C.red.base },
     ["@neorg.definitions.content.norg"] = { fg = C.white1 },
+
     ["@neorg.lists.ordered.prefix.norg"] = { fg = C.gray1 },
+
+    ["@neorg.footnotes.title.norg"] = { fg = C.cyan.bright, bold = true },
+    ["@neorg.footnotes.content.norg"] = { fg = C.white1 },
 }
